@@ -1,0 +1,48 @@
+plugins: [jekyll-paginate]
+
+permalink: /:categories/:title/
+
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input:  GFM
+  syntax_highlighter: rouge
+
+
+paginate: 10
+paginate_path: "page/:num"
+baseurl: ""
+
+
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      styles : [highlight.css,gitment.css,post.css]
+      scripts : [gitment.js, post.js]
+
+
+
+title: "SongKai'Blog"
+email: kk99898@163.com
+description: "聚散终有时 此去无故人"
+github:
+  username: Kk-99898
+swiftype:
+  searchId: iXZyPokVfxFaBTvi64Y6
+gitment:
+    repo: blog
+    client_id: e14f84c1111e726a7fbb
+    client_secret: 993c7e9a0ad7a684f39eda2689903e5ad6f4a59b
+
+url: "https://kk-99898.github.io/blog"
+imgrepo: "https://kk-99898.github.io/static/img"
+
+
+#url: "http://127.0.0.1:4000"
+# imgrepo: "http://127.0.0.1:4000/static/img"
+
