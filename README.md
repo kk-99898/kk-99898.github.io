@@ -2,7 +2,7 @@
 
 # Blog Address
 
-<https://bit-ranger.github.io/blog/>
+<https://kk99898.github.io>
 
 
 # Must Modify
