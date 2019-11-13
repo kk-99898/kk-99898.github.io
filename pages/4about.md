@@ -35,7 +35,6 @@ scripts: [tagCloud.js,tags.js]
 </div>
 <span style="font-weight: bold;">未读</span>
 <div style="position: relative;height: 300px !important;">
-
         <div style="position: relative;">
             <h5>
                 <a href="http://book.douban.com/subject/3146174/">《JAVA核心技术》</a>
